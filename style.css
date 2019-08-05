@@ -159,40 +159,36 @@ b {
 	padding-right: 0;
 }
 
-.menu li {
-	a {
-		display: block;
-		background: none;
-		color: #d3125a;
-	}
-	&:hover {
-		a {
-			color: #d3125a;
-			background: none;
-		}
-	}
+.menu li a {
+	display: block;
+	background: none;
+	color: #d3125a;
+}
+.menu li:hover a {
+	color: #d3125a;
+	background: none;
 }
 
 .page-navigation-container ul ul.sub-menu {
 	position: static;
 	float: none;
 	width: 100%;
-	a {
-		width: 100%;
-		padding-left: 15%;
+}
+.page-navigation-container ul ul.sub-menu a {
+	width: 100%;
+	padding-left: 15%;
+}
 
-		&::before {
-			content: " ";
-			display: inline-block;
-			position: absolute;
-			left: 22px;
-			top: 50%;
-			margin-top: -1px;
-			height: 3px;
-			width: 15px;
-			background: #fff;
-		}
-	}
+.page-navigation-container ul ul.sub-menu a::before {
+	content: " ";
+	display: inline-block;
+	position: absolute;
+	left: 22px;
+	top: 50%;
+	margin-top: -1px;
+	height: 3px;
+	width: 15px;
+	background: #fff;
 }
 
 .menu-toggle {
@@ -250,7 +246,7 @@ b {
 	padding-top: 25px;
 }
 
-// Gutenberg Features
+/* Gutenberg Features */
 
 .alignfull, .alignwide {
 	left: 50%;
@@ -264,7 +260,8 @@ b {
 	width: 100vw;
 	max-width: 1200px;
 }
-// Gutenberg End
+
+
 
 #footer-widgets {
 	display: flex;
@@ -399,7 +396,7 @@ b {
 	}
 
 	.page-navigation-container {
-		//background: rgba(0, 128, 0, 0.5);
+		/*background: rgba(0, 128, 0, 0.5);*/
 		max-width: 1140px;
 		margin: 0 auto;
 		position: relative;
@@ -408,7 +405,7 @@ b {
 	.menu-hauptmenue-container {
 		width: 100%;
 		padding-left: 300px;
-		//background: rgba(0, 128, 0, 0.5);
+		/*background: rgba(0, 128, 0, 0.5);*/
 		position: absolute;
 		top: -86px;
 	}

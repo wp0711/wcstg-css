@@ -1,0 +1,426 @@
+html {
+	font-size: 20px;
+}
+
+::-moz-selection {
+	background: #d50757;
+	color: #fff;
+}
+
+::selection {
+	background: #d50757;
+	color: #fff;
+}
+
+body {
+	font: 300 1rem/1.5 'Rubik', sans-serif;
+	color: #013544;
+	background-color: #013544;
+}
+
+a:focus {
+		outline: 1px dashed;
+}
+
+p a,
+p a:visited {
+	color: #009a9a;
+	text-decoration: none;
+	transition: all 0.18s ease-out;
+	border-bottom: 1px solid #00adad;
+}
+
+p a:hover,
+p a:focus {
+	color: #013544;
+	text-decoration: none;
+	border-bottom: 1px solid #013544;
+}
+
+.site-info-network:focus {
+	outline: none;
+	border: 1px dashed #fff;
+}
+
+.page-navigation-container a {
+	color: #013544;
+}
+
+.page-navigation-container a:hover,
+.page-navigation-container a:focus {
+	color: #d50757;
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5, 
+h6 {
+	font-weight: 500;
+}
+
+strong, 
+b {
+	font-weight: 500;
+}
+
+.site-main h2,
+#content-widgets h2 {
+	color: #d50757;
+	font-weight: 300;
+}
+
+.site-main h3,
+#content-widgets h3 {
+	color: #d50757;
+	font-weight: 300;
+}
+
+#masthead {
+	padding: 0;
+	background: #fff;
+}
+
+.site-header {
+	padding: 30px;
+}
+
+.custom-header,
+.menu,
+.page-navigation-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	float: none;
+}
+
+.custom-header {
+	padding: 10px 30px 0 30px;
+	margin-bottom: -15px;
+}
+
+.site-content {
+	background: #fff;
+	padding: 30px;
+}
+
+.site-branding {
+	position: relative;
+}
+
+.site-description {
+	font-size: 1.5rem;
+	color: #d50757;
+	margin: 0 0 70px;
+	line-height: 1;
+}
+
+.site-title {
+	border: 0;
+	clip: rect(0,0,0,0);
+	height: .0625rem;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: .0625rem;
+}
+
+.custom-logo {
+	height: 250px;
+	width: 250px;
+}
+
+.custom-logo-link {
+	position: relative;
+	z-index: 55;
+}
+
+.menu {
+	display: none;
+}
+
+.site-footer .menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.site-footer h2,
+.site-footer h3 {
+	font-size: 1rem;
+}
+
+.site-footer .menu li {
+	display: block;
+}
+
+.site-footer .menu li:last-child a {
+	padding-right: 0;
+}
+
+.menu li {
+	a {
+		display: block;
+		background: none;
+		color: #d3125a;
+	}
+	&:hover {
+		a {
+			color: #d3125a;
+			background: none;
+		}
+	}
+}
+
+.page-navigation-container ul ul.sub-menu {
+	position: static;
+	float: none;
+	width: 100%;
+	a {
+		width: 100%;
+		padding-left: 15%;
+
+		&::before {
+			content: " ";
+			display: inline-block;
+			position: absolute;
+			left: 22px;
+			top: 50%;
+			margin-top: -1px;
+			height: 3px;
+			width: 15px;
+			background: #fff;
+		}
+	}
+}
+
+.menu-toggle {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 100%;
+	border: 0;
+	border-radius: 0;
+}
+
+.page-navigation-container.toggled-on ul.menu {
+	display: block;
+}
+
+.page-navigation-container li {
+	float: none;
+}
+
+.page-navigation-container li .dropdown-toggle {
+	display:none;
+}
+
+.menu-item a {
+	display: block;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	transition: all .1s ease;
+}
+
+.js .menu-toggle, 
+.js .dropdown-toggle {
+	display: block;
+}
+
+#content-widgets,
+.content-area,
+#secondary,
+#colophon {
+	max-width: 704px;
+	margin: 0 auto;
+	padding: 10px 30px 0;
+}
+
+#colophon {
+	max-width: 1200px;
+	position: relative;
+}
+
+#colophon,
+#colophon a {
+	color: #fff;
+}
+
+#colophon {
+	padding-top: 25px;
+}
+
+// Gutenberg Features
+
+.alignfull, .alignwide {
+	left: 50%;
+	max-width: none;
+	position: relative;
+	transform: translate(-50%);
+	width: 100vw;
+}
+
+.alignwide {
+	width: 100vw;
+	max-width: 1200px;
+}
+// Gutenberg End
+
+#footer-widgets {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#footer-widgets > div,
+#footer-widgets > section {
+	flex: 1 1 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+#footer-widgets > div:first-child,
+#footer-widgets > section:first-child {
+	text-align: left;
+}
+
+#footer-widgets > div:last-child,
+#footer-widgets > section:last-child {
+	text-align: right;
+}
+
+.site-footer::after {
+	content: "";
+	display:none;
+	width: 100%;
+	height: 800px;
+	background: rgba(255, 255, 255, 0.05);
+	position: absolute;
+	left: 0;
+	bottom: -860px;
+	transform-origin: 0;
+	transform: skew(0, -6deg);
+	z-index: 0;
+}
+
+.make-white {
+	filter: brightness(0) invert(1);
+}
+
+.footer-logo {
+	width: 150px;
+	height: auto;
+}
+
+#wccsp-container {
+	background: #fff;
+	padding-bottom: 30px;
+}
+
+.site-info-generator {
+	text-indent: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;	
+	display: inline-block;
+}
+
+.site-info-network {
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	display: block;
+	width: 3.75rem;
+	height: 3.75rem;
+	margin-left: -37.5px;
+	color: #fff;
+	text-indent: -9999px;
+	background-image: url(https://2019.stuttgart.wordcamp.org/files/2019/06/WordPress-logotype-white.png);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-color: #013544;
+	background-size: 60px;
+	border-radius: 50%;
+	transition: all .1s ease;
+	z-index: 9999;
+}
+
+.site-info-network:active, .site-info-network:focus,  .site-info-network:hover {
+	background-color: #0e3f4e;
+}
+
+.page-navigation-container ul li:hover > u {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+	.js .menu-toggle, 
+	.js .dropdown-toggle {
+		display: none;
+	}
+
+	.site-branding::after {
+		position: absolute;
+		bottom: 40px;
+		left: 128px;
+		right: 0;
+		display: block;
+		content: "";
+		height: 5px;
+		background: #d50757;
+	}
+
+	.site-branding {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.page-navigation-container ul ul {
+		background-color: #fff;
+		padding: 10px 12px 8px 15px;
+	}
+
+	.page-navigation-container ul ul.sub-menu {
+		position: absolute;
+
+	}
+
+	.page-navigation-container ul {
+		display: flex;
+	}
+
+	.menu li a {
+		background: none;
+		color: inherit;
+	}
+
+	.page-navigation-container {
+		//background: rgba(0, 128, 0, 0.5);
+		max-width: 1140px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.menu-hauptmenue-container {
+		width: 100%;
+		padding-left: 300px;
+		//background: rgba(0, 128, 0, 0.5);
+		position: absolute;
+		top: -86px;
+	}
+
+	.menu-hauptmenue-container > ul {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.menu-hauptmenue-container > ul > li:last-child a {
+		padding-right: 0;
+		margin-right: 0;
+	}
+}

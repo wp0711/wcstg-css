@@ -615,6 +615,7 @@ button:focus {
 	outline: 1px dashed;
 }
 
+button,
 .entry-content input[type="submit"],
 #tix .tix-submit .tix-checkout-button {
 	-moz-appearance: none;
@@ -628,6 +629,8 @@ button:focus {
 	transition: all .25s;
 }
 
+button:hover,
+button:focus,
 .entry-content input[type="submit"]:hover,
 .entry-content input[type="submit"]:focus,
 #tix .tix-submit .tix-checkout-button:focus,

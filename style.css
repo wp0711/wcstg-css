@@ -18,6 +18,12 @@ body {
 	font: 300 1rem/1.5 'Rubik', sans-serif;
 }
 
+input,
+select,
+textarea {
+	font: 300 1em/1.5 'Rubik', sans-serif;
+}
+
 a:focus {
 	outline: 1px dashed;
 }

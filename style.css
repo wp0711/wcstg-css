@@ -112,7 +112,15 @@ a:focus {
 
 .wp-block-image .alignright,
 .wp-block-image .alignleft {
-	width: 40%;
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.wp-block-image .alignright,
+	.wp-block-image .alignleft {
+		display: block;
+		width: 40%;
+	}
 }
 
 figure {
@@ -219,7 +227,14 @@ ul, ol {
 .site-footer .menu {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: flex-end;
+}
+
+@media (min-width: 840px) {
+	.site-footer .menu {
+		flex-direction: row;
+	}
 }
 
 .site-footer h2,
@@ -256,11 +271,11 @@ ul, ol {
 }
 
 .page-navigation-container ul ul.sub-menu a::before {
-	background: #fff;
+	background: currentColor;
 	content: " ";
 	display: inline-block;
 	height: 3px;
-	left: 22px;
+	left: 0;
 	margin-top: -1px;
 	position: absolute;
 	top: 50%;
@@ -275,8 +290,23 @@ ul, ol {
 	width: 100%;
 }
 
+.page-navigation-container:not(.toggled-on) ul {
+	display: none;
+}
+
 .page-navigation-container.toggled-on ul.menu {
 	display: block;
+	padding: 10px 30px;
+}
+
+@media (min-width: 768px) {
+	.page-navigation-container:not(.toggled-on) ul {
+		display: flex;
+	}
+	
+	.page-navigation-container.toggled-on ul.menu {
+		padding: 0;
+	}
 }
 
 .page-navigation-container li {
@@ -289,9 +319,16 @@ ul, ol {
 
 .menu-item a {
 	display: block;
-	padding: .5rem 1rem;
+	padding: .5rem 0;
 	text-decoration: none;
 	transition: all .1s ease;
+}
+
+@media (min-width: 840px) {
+	.menu-item a {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
 .js .menu-toggle,
@@ -305,7 +342,19 @@ ul, ol {
 #colophon {
 	margin: 0 auto;
 	max-width: 704px;
+	padding: 10px 0 0;
+}
+
+#colophon {
 	padding: 10px 30px 0;
+}
+
+@media (min-width: 768px) {
+	#content-widgets,
+	.content-area,
+	#secondary {
+		padding: 10px 30px 0;
+	}
 }
 
 #colophon {
@@ -341,7 +390,6 @@ ul, ol {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 #footer-widgets > div,
 #footer-widgets > section {
 	flex: 1 1 auto;
@@ -447,9 +495,9 @@ ul, ol {
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"],
 textarea {
+	border: 0;
 	border-bottom: 1px solid #dcdddf;
 	border-radius: 0;
-	border: 0;
 	outline: none !important;
 	padding-bottom: 2px;
 	transition: all .25s;
@@ -519,7 +567,7 @@ button:focus {
 		padding: 0;
 	}
 	.page-navigation-container ul ul.sub-menu a {
-		padding-left: 8%;
+		padding-left: 25px;
 	}
 	
 	.main-navigation .menu {
@@ -579,22 +627,20 @@ button:focus {
 	}
 
 	.page-navigation-container {
-		/*background: rgba(0, 128, 0, 0.5);*/
 		margin: 0 auto;
-		max-width: 1140px;
+		max-width: 1200px;
+		padding: 0 30px;
 		position: relative;
 	}
 
 	.menu-hauptmenue-container {
+		margin-top: -101px;
 		padding-left: 300px;
-		/*background: rgba(0, 128, 0, 0.5);*/
-		position: absolute;
-		top: -86px;
 		width: 100%;
 	}
 
 	.menu-hauptmenue-container > ul {
-		display: flex;
+		display: flex !important;
 		justify-content: space-between;
 		width: 100%;
 	}
@@ -611,6 +657,7 @@ button:focus {
 	.page-navigation-container ul li:hover > ul,
 	.page-navigation-container ul li.focus > ul {
 		display: flex;
+		flex-direction: column;
 		flex-wrap: wrap;
 		top: 2.5em;
 		width: 210px;
@@ -631,7 +678,7 @@ button:focus {
 	}
 
 	.page-navigation-container ul ul.sub-menu a::before {
-		display: none;
+		content: none;
 	}
 }
 
@@ -649,4 +696,5 @@ button:focus {
 	figure {
 		margin: 1.5em 0;
 	}
+
 }

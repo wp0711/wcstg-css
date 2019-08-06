@@ -83,6 +83,14 @@ th {
 	background: #fff;
 }
 
+.tix-attendee-list {
+    align-content: start;
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
 
 #tix .tix-ticket-form + p {
 	display: none;

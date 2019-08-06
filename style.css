@@ -117,6 +117,19 @@ th {
 	border-radius: 0;
 }
 
+.tix-error {
+	background: #cb131f;
+	border: 0;
+	border-radius: 0;
+	color: #fff;
+}
+
+.tix-notice {
+	background: #efd94c;
+	border: 0;
+	border-radius: 0;
+}
+
 .tix-right input {
 	margin: -3px 0;
 }

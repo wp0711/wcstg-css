@@ -54,15 +54,83 @@ p a:focus {
 h1,
 h2,
 h3,
-h4, 
-h5, 
+h4,
+h5,
 h6 {
+	font-weight: 500;
+	clear: none;
+}
+
+strong,
+b {
 	font-weight: 500;
 }
 
-strong, 
-b {
-	font-weight: 500;
+td, th {
+	background: #dcdddf;
+	border: 2px solid #fff;
+	font-size: .8em;
+	padding: 5px 10px;
+}
+
+th {
+	background: #d51e62;
+	color: #fff;
+}
+
+
+.tix-row-coupon td {
+	background: #fff;
+}
+
+
+#tix .tix-ticket-form + p {
+	display: none;
+}
+
+a,
+a:visited,
+a:link,
+.page-navigation-container a:hover,
+.page-navigation-container a:focus {
+	color: #009a9a;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #013544;
+}
+
+.wp-block-image .alignright,
+.wp-block-image .alignleft {
+	width: 40%;
+}
+
+figure {
+	margin: .5em 0;
+}
+
+.custom-header {
+	padding: 10px 0 0;
+}
+
+.main-navigation {
+	max-width: 1200px;
+}
+
+#masthead {
+	padding: 0 30px;
+}
+
+ul, ol {
+    margin: 0 0 1.5em 0;
+    list-style-position: outside;
+    padding: 0 0 0 1em;
+}
+
+.site-main li {
+	margin-bottom: .25em;
 }
 
 .site-main h2,
@@ -218,7 +286,7 @@ b {
 	transition: all .1s ease;
 }
 
-.js .menu-toggle, 
+.js .menu-toggle,
 .js .dropdown-toggle {
 	display: block;
 }
@@ -318,7 +386,7 @@ b {
 	text-indent: -9999px;
 	width: 1px;
 	height: 1px;
-	overflow: hidden;	
+	overflow: hidden;
 	display: inline-block;
 }
 
@@ -361,7 +429,7 @@ b {
 }
 
 
-/* Organizers Grid @TODO */ 
+/* Organizers Grid @TODO */
 .wcorg-organizers {
 	display: grid;
   grid-template-columns: 33fr 33fr 33fr
@@ -371,9 +439,85 @@ b {
 	font-size: 1.2em;
 }
 
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"],
+textarea {
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #dcdddf;
+	outline: none !important;
+	transition: all .25s;
+	padding-bottom: 2px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus,
+textarea:focus {
+	border-bottom: 3px solid #d51e62;
+	padding-bottom: 0;
+}
+
+input:focus,
+button:focus {
+	outline: 1px dashed;
+}
+
+.entry-content input[type="submit"],
+#tix .tix-submit .tix-checkout-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #009a9a;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 13px;
+	transition: all .25s;
+}
+
+.entry-content input[type="submit"]:hover,
+.entry-content input[type="submit"]:focus,
+#tix .tix-submit .tix-checkout-button:focus,
+#tix .tix-submit .tix-checkout-button:hover {
+	background: #013544;
+}
+
+.tix-required-star {
+    color: #d51f62;
+}
+
+.menu li a {
+    color: #084b5b;
+}
+
+.menu li.current-menu-item a {
+    color: #d3125a;
+}
+
+
+@media screen and (max-width: 767px) {
+	.page-navigation-container ul ul {
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+}
+	.page-navigation-container ul ul.sub-menu a {
+		padding-left: 8%;
+	}
+	
+	.main-navigation .menu {
+	opacity: 0;
+		height: 0;
+		transition: all 1s;
+	}
+	
+	.toggled-on.main-navigation .menu {
+		opacity: 1;
+		transform: scale(1);
+		height: auto;
+	}
+}
 
 @media screen and (min-width: 768px) {
-	.js .menu-toggle, 
+	.js .menu-toggle,
 	.js .dropdown-toggle {
 		display: none;
 	}
@@ -440,4 +584,52 @@ b {
 		padding-right: 0;
 		margin-right: 0;
 	}
+	
+	.page-navigation-container ul ul.sub-menu a {
+		padding-left: 0;
+	}
+
+	.page-navigation-container ul li:hover > ul,
+	.page-navigation-container ul li.focus > ul {
+		width: 210px;
+		display: flex;
+		flex-wrap: wrap;
+		top: 2.5em;
+	}
+	
+	.page-navigation-container ul li:hover > ul a,
+	.page-navigation-container ul li.focus > ul a {
+		color: #013544;
+	}
+
+		.page-navigation-container ul li:hover > ul li.current-menu-item a {
+    color: #d3125a;
+}
+
+	
+	.page-navigation-container ul li:hover > ul a:hover,
+	.page-navigation-container ul li.focus > ul a:focus {
+		color: #d3125a;
+	}
+
+	.page-navigation-container ul ul.sub-menu a::before {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.wp-block-image .alignright {
+		margin-right: -277px;
+		width: auto;
+	}
+
+	.wp-block-image .alignleft {
+		margin-left: -277px;
+		width: auto;
+	}
+	
+	figure {
+		margin: 1.5em 0;
+	}
+
 }

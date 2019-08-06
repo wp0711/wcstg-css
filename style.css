@@ -646,6 +646,7 @@ button:focus {
 
 button,
 .entry-content input[type="submit"],
+.page-content input[type="submit"],
 #tix .tix-submit .tix-checkout-button {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -662,9 +663,17 @@ button:hover,
 button:focus,
 .entry-content input[type="submit"]:hover,
 .entry-content input[type="submit"]:focus,
+.page-content input[type="submit"]:hover,
+.page-content input[type="submit"]:focus,
 #tix .tix-submit .tix-checkout-button:focus,
 #tix .tix-submit .tix-checkout-button:hover {
 	background: #013544;
+}
+
+input[type="search"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .tix-required-star {

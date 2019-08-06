@@ -79,6 +79,13 @@ th {
 	color: #fff;
 }
 
+.tix-js {
+	overflow: auto;
+}
+
+.tix-column-description {
+	min-width: 200px;
+}
 
 .tix-row-coupon td {
 	background: #fff;

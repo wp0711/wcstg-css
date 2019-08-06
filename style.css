@@ -13,33 +13,33 @@ html {
 }
 
 body {
-	font: 300 1rem/1.5 'Rubik', sans-serif;
-	color: #013544;
 	background-color: #013544;
+	color: #013544;
+	font: 300 1rem/1.5 'Rubik', sans-serif;
 }
 
 a:focus {
-		outline: 1px dashed;
+	outline: 1px dashed;
 }
 
 p a,
 p a:visited {
+	border-bottom: 1px solid #00adad;
 	color: #009a9a;
 	text-decoration: none;
 	transition: all 0.18s ease-out;
-	border-bottom: 1px solid #00adad;
 }
 
 p a:hover,
 p a:focus {
+	border-bottom: 1px solid #013544;
 	color: #013544;
 	text-decoration: none;
-	border-bottom: 1px solid #013544;
 }
 
 .site-info-network:focus {
-	outline: none;
 	border: 1px dashed #fff;
+	outline: none;
 }
 
 .page-navigation-container a {
@@ -57,8 +57,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 500;
 	clear: none;
+	font-weight: 500;
 }
 
 strong,
@@ -124,8 +124,8 @@ figure {
 }
 
 ul, ol {
-    margin: 0 0 1.5em 0;
     list-style-position: outside;
+    margin: 0 0 1.5em 0;
     padding: 0 0 0 1em;
 }
 
@@ -146,8 +146,8 @@ ul, ol {
 }
 
 #masthead {
-	padding: 0;
 	background: #fff;
+	padding: 0;
 }
 
 .site-header {
@@ -157,9 +157,9 @@ ul, ol {
 .custom-header,
 .menu,
 .page-navigation-container {
-	max-width: 1200px;
-	margin: 0 auto;
 	float: none;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 
 .custom-header {
@@ -177,10 +177,10 @@ ul, ol {
 }
 
 .site-description {
-	font-size: 1.5rem;
 	color: #d50757;
-	margin: 0 0 70px;
+	font-size: 1.5rem;
 	line-height: 1;
+	margin: 0 0 70px;
 }
 
 .site-title {
@@ -238,8 +238,8 @@ ul, ol {
 }
 
 .page-navigation-container ul ul.sub-menu {
-	position: static;
 	float: none;
+	position: static;
 	width: 100%;
 }
 .page-navigation-container ul ul.sub-menu a {
@@ -248,23 +248,23 @@ ul, ol {
 }
 
 .page-navigation-container ul ul.sub-menu a::before {
+	background: #fff;
 	content: " ";
 	display: inline-block;
-	position: absolute;
-	left: 22px;
-	top: 50%;
-	margin-top: -1px;
 	height: 3px;
+	left: 22px;
+	margin-top: -1px;
+	position: absolute;
+	top: 50%;
 	width: 15px;
-	background: #fff;
 }
 
 .menu-toggle {
-	-webkit-appearance: none;
 	-moz-appearance: none;
-	width: 100%;
-	border: 0;
+	-webkit-appearance: none;
 	border-radius: 0;
+	border: 0;
+	width: 100%;
 }
 
 .page-navigation-container.toggled-on ul.menu {
@@ -295,8 +295,8 @@ ul, ol {
 .content-area,
 #secondary,
 #colophon {
-	max-width: 704px;
 	margin: 0 auto;
+	max-width: 704px;
 	padding: 10px 30px 0;
 }
 
@@ -329,8 +329,6 @@ ul, ol {
 	max-width: 1200px;
 }
 
-
-
 #footer-widgets {
 	display: flex;
 	flex-wrap: wrap;
@@ -339,8 +337,8 @@ ul, ol {
 #footer-widgets > div,
 #footer-widgets > section {
 	flex: 1 1 auto;
-	text-align: center;
 	position: relative;
+	text-align: center;
 	z-index: 2;
 }
 
@@ -355,16 +353,16 @@ ul, ol {
 }
 
 .site-footer::after {
+	background: rgba(255, 255, 255, 0.05);
+	bottom: -860px;
 	content: "";
 	display:none;
-	width: 100%;
 	height: 800px;
-	background: rgba(255, 255, 255, 0.05);
-	position: absolute;
 	left: 0;
-	bottom: -860px;
+	position: absolute;
 	transform-origin: 0;
 	transform: skew(0, -6deg);
+	width: 100%;
 	z-index: 0;
 }
 
@@ -373,8 +371,8 @@ ul, ol {
 }
 
 .footer-logo {
-	width: 150px;
 	height: auto;
+	width: 150px;
 }
 
 #wccsp-container {
@@ -383,30 +381,30 @@ ul, ol {
 }
 
 .site-info-generator {
-	text-indent: -9999px;
-	width: 1px;
+	display: inline-block;
 	height: 1px;
 	overflow: hidden;
-	display: inline-block;
+	text-indent: -9999px;
+	width: 1px;
 }
 
 .site-info-network {
-	position: absolute;
-	top: 75px;
-	left: 50%;
-	display: block;
-	width: 3.75rem;
-	height: 3.75rem;
-	margin-left: -37.5px;
-	color: #fff;
-	text-indent: -9999px;
+	background-color: #013544;
 	background-image: url(https://2019.stuttgart.wordcamp.org/files/2019/06/WordPress-logotype-white.png);
 	background-position: 50%;
 	background-repeat: no-repeat;
-	background-color: #013544;
 	background-size: 60px;
 	border-radius: 50%;
+	color: #fff;
+	display: block;
+	height: 3.75rem;
+	left: 50%;
+	margin-left: -37.5px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 75px;
 	transition: all .1s ease;
+	width: 3.75rem;
 	z-index: 9999;
 }
 
@@ -422,9 +420,9 @@ ul, ol {
 
 /* Workaround for bilingual content */
 .en {
+	display: block;
 	font-style: italic;
 	margin-left: 50px;
-	display: block;
 	opacity: 1;
 }
 
@@ -432,7 +430,7 @@ ul, ol {
 /* Organizers Grid @TODO */
 .wcorg-organizers {
 	display: grid;
-  grid-template-columns: 33fr 33fr 33fr
+	grid-template-columns: 33fr 33fr 33fr
 }
 
 .wcorg-organizer h2 {
@@ -441,15 +439,29 @@ ul, ol {
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"],
 textarea {
-	border: 0;
-	border-radius: 0;
 	border-bottom: 1px solid #dcdddf;
+	border-radius: 0;
+	border: 0;
 	outline: none !important;
-	transition: all .25s;
 	padding-bottom: 2px;
+	transition: all .25s;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
 textarea:focus {
 	border-bottom: 3px solid #d51e62;
 	padding-bottom: 0;
@@ -462,11 +474,11 @@ button:focus {
 
 .entry-content input[type="submit"],
 #tix .tix-submit .tix-checkout-button {
-    -webkit-appearance: none;
     -moz-appearance: none;
+    -webkit-appearance: none;
     background: #009a9a;
-    border: 0;
     border-radius: 0;
+    border: 0;
     color: #fff;
     font-weight: 600;
     padding: 10px 13px;
@@ -492,27 +504,26 @@ button:focus {
     color: #d3125a;
 }
 
-
 @media screen and (max-width: 767px) {
 	.page-navigation-container ul ul {
-	box-shadow: none;
-	padding: 0;
-	margin: 0;
-}
+		box-shadow: none;
+		margin: 0;
+		padding: 0;
+	}
 	.page-navigation-container ul ul.sub-menu a {
 		padding-left: 8%;
 	}
 	
 	.main-navigation .menu {
-	opacity: 0;
 		height: 0;
+		opacity: 0;
 		transition: all 1s;
 	}
 	
 	.toggled-on.main-navigation .menu {
+		height: auto;
 		opacity: 1;
 		transform: scale(1);
-		height: auto;
 	}
 }
 
@@ -523,14 +534,14 @@ button:focus {
 	}
 
 	.site-branding::after {
-		position: absolute;
-		bottom: 40px;
-		left: 128px;
-		right: 0;
-		display: block;
-		content: "";
-		height: 5px;
 		background: #d50757;
+		bottom: 40px;
+		content: "";
+		display: block;
+		height: 5px;
+		left: 128px;
+		position: absolute;
+		right: 0;
 	}
 
 	.site-branding {
@@ -561,17 +572,17 @@ button:focus {
 
 	.page-navigation-container {
 		/*background: rgba(0, 128, 0, 0.5);*/
-		max-width: 1140px;
 		margin: 0 auto;
+		max-width: 1140px;
 		position: relative;
 	}
 
 	.menu-hauptmenue-container {
-		width: 100%;
 		padding-left: 300px;
 		/*background: rgba(0, 128, 0, 0.5);*/
 		position: absolute;
 		top: -86px;
+		width: 100%;
 	}
 
 	.menu-hauptmenue-container > ul {
@@ -591,10 +602,10 @@ button:focus {
 
 	.page-navigation-container ul li:hover > ul,
 	.page-navigation-container ul li.focus > ul {
-		width: 210px;
 		display: flex;
 		flex-wrap: wrap;
 		top: 2.5em;
+		width: 210px;
 	}
 	
 	.page-navigation-container ul li:hover > ul a,
@@ -602,10 +613,9 @@ button:focus {
 		color: #013544;
 	}
 
-		.page-navigation-container ul li:hover > ul li.current-menu-item a {
-    color: #d3125a;
-}
-
+	.page-navigation-container ul li:hover > ul li.current-menu-item a {
+		color: #d3125a;
+	}
 	
 	.page-navigation-container ul li:hover > ul a:hover,
 	.page-navigation-container ul li.focus > ul a:focus {
@@ -631,5 +641,4 @@ button:focus {
 	figure {
 		margin: 1.5em 0;
 	}
-
 }

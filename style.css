@@ -75,10 +75,10 @@ b {
 
 td,
 th {
-	background: #dcdddf;
-	border: 2px solid #fff;
+	background: #fff;
+	border: 1px solid #d51e63;
 	font-size: .8em;
-	padding: 5px 10px;
+	padding: 8px 10px;
 }
 
 th {
@@ -109,6 +109,16 @@ th {
 
 #tix .tix-ticket-form + p {
 	display: none;
+}
+
+.tix-info {
+	background: #23c675;
+	border: 0;
+	border-radius: 0;
+}
+
+.tix-right input {
+	margin: -3px 0;
 }
 
 a,

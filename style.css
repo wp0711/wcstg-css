@@ -59,6 +59,7 @@ h5,
 h6 {
 	clear: none;
 	font-weight: 500;
+	line-height: 1.2;
 }
 
 strong,

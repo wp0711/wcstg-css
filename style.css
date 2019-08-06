@@ -334,7 +334,22 @@ ul, ol {
 
 .js .menu-toggle,
 .js .dropdown-toggle {
-	display: block;
+	background: #f3f3f3;
+	border: 1px solid #dedede;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 4px;
+	color: #2e4453;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: inherit;
+	line-height: inherit;
+	margin: 0 30px;
+	padding: 8px 12px;
+	position: static;
+	text-transform: none;
+	width: calc(100% - 60px);
 }
 
 #content-widgets,

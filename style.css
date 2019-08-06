@@ -352,6 +352,15 @@ b {
 	width: 200px;
 }
 
+/* Workaround for bilingual content */
+.en {
+	font-style: italic;
+	margin-left: 50px;
+	display: block;
+	opacity: 1;
+}
+
+
 @media screen and (min-width: 768px) {
 	.js .menu-toggle, 
 	.js .dropdown-toggle {

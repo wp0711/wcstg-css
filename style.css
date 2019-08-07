@@ -847,7 +847,11 @@ input[type="search"] {
 	}
 	
 	figure {
-		margin: 1.5em 0;
+		margin: .25em 0 1.5em 0;
 	}
 	
+	.entry-content .wp-block-image:first-of-type .alignleft,
+	.entry-content .wp-block-image:first-of-type .alignright {
+		margin-top: 1.5em;
+	}
 }

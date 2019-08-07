@@ -86,7 +86,8 @@ th {
 	color: #fff;
 }
 
-.tix-js {
+.tix-js,
+.tix-has-dynamic-receipts {
 	overflow: auto;
 }
 

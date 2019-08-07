@@ -597,6 +597,30 @@ figure {
 	font-size: 1.2em;
 }
 
+.single .entry-title {
+    margin-bottom: .5em;
+}
+
+.entry-meta {
+    opacity: .7;
+}
+
+.entry-meta a,
+.entry-metaa:visited,
+.entry-meta a:link {
+    color: #013544;
+}
+
+.entry-meta a:hover,
+.entry-meta a:focus {
+	text-decoration: underline;
+}
+
+.comments-area {
+    border-top: 1px solid #dcdddf;
+    padding-top: 2em;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="url"],

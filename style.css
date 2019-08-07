@@ -697,6 +697,7 @@ input[type="search"] {
 	.site-description {
 		font-size: 22px;
 		margin: 0 0 35px;
+		text-align: center;
 	}
 	
 	.custom-logo {

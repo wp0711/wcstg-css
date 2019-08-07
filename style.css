@@ -601,6 +601,26 @@ figure {
     margin-bottom: .5em;
 }
 
+.blog .entry-title {
+	margin-bottom: .25em;
+}
+
+.blog .comments-link {
+	display: none;
+}
+
+.blog .site-main .post {
+	border-top: 1px solid #dcdddf;
+    padding-top: 1.5em;
+    margin-top: 3em;
+}
+
+.blog .site-main .post:first-of-type {
+	border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
 .entry-meta {
     opacity: .7;
 }
@@ -675,7 +695,9 @@ button,
 .page-content input[type="submit"],
 #tix .tix-submit .tix-checkout-button,
 a.wp-block-button__link,
-a.wp-block-button__link:link {
+a.wp-block-button__link:link,
+a.more-link,
+a.more-link:link {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	background: #009a9a;
@@ -696,7 +718,9 @@ button:focus,
 #tix .tix-submit .tix-checkout-button:focus,
 #tix .tix-submit .tix-checkout-button:hover,
 a.wp-block-button__link:focus,
-a.wp-block-button__link:hover {
+a.wp-block-button__link:hover,
+a.more-link:focus,
+a.more-link:hover{
 	background: #013544;
 }
 

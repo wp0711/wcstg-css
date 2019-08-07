@@ -693,6 +693,17 @@ input[type="search"] {
 }
 
 @media screen and (max-width: 767px) {
+	.site-title a,
+	.site-description {
+		font-size: 22px;
+		margin: 0 0 35px;
+	}
+	
+	.custom-logo {
+		margin: 0 auto;
+		display: block;
+	}
+	
 	.page-navigation-container ul ul {
 		box-shadow: none;
 		margin: 0;
@@ -713,6 +724,12 @@ input[type="search"] {
 		height: auto;
 		opacity: 1;
 		transform: scale(1);
+	}
+}
+
+@media screen and (min-width: 37.5em) {
+	.js .menu-toggle, .js .dropdown-toggle {
+		display: block;
 	}
 }
 

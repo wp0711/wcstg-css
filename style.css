@@ -817,12 +817,12 @@ input[type="search"] {
 
 @media screen and (min-width: 1000px) {
 	.wp-block-image .alignright {
-		margin-right: -277px;
+		margin-right: -248px;
 		width: auto;
 	}
 	
 	.wp-block-image .alignleft {
-		margin-left: -277px;
+		margin-left: -248px;
 		width: auto;
 	}
 	

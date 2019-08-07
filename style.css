@@ -642,6 +642,25 @@ figure {
     padding-top: 2em;
 }
 
+.tix-ticket-form input[type="text"],
+.tix-ticket-form input[type="email"],
+.tix-ticket-form input[type="url"],
+.tix-ticket-form textarea,
+.tix-private-form input[type="text"],
+.tix-private-form input[type="email"],
+.tix-private-form input[type="url"],
+.tix-private-form textarea,
+.tix-attendee-form input[type="text"],
+.tix-attendee-form input[type="email"],
+.tix-attendee-form input[type="url"],
+.tix-attendee-form textarea,
+.tix-receipt-form input[type="text"],
+.tix-receipt-form input[type="email"],
+.tix-receipt-form input[type="url"],
+.tix-receipt-form textarea {
+    width: 100%;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -658,11 +677,12 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
+	padding: 5px 10px;
 	border: 0;
-	border-bottom: 1px solid #dcdddf;
+	border-bottom: 1px solid #ababab;
+    background: #eee;
 	border-radius: 0;
 	outline: none !important;
-	padding-bottom: 2px;
 	transition: all .25s;
 }
 
@@ -683,7 +703,7 @@ input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
 	border-bottom: 3px solid #d51e62;
-	padding-bottom: 0;
+	padding-bottom: 3px;
 }
 
 input:focus,

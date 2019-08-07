@@ -579,7 +579,7 @@ figure {
 }
 
 /* Workaround for bilingual content */
-.en {
+.site-main .en {
 	display: block;
 	font-style: italic;
 	margin-left: 50px;

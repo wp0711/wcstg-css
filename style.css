@@ -647,7 +647,9 @@ button:focus {
 button,
 .entry-content input[type="submit"],
 .page-content input[type="submit"],
-#tix .tix-submit .tix-checkout-button {
+#tix .tix-submit .tix-checkout-button,
+a.wp-block-button__link,
+a.wp-block-button__link:link {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	background: #009a9a;
@@ -666,7 +668,9 @@ button:focus,
 .page-content input[type="submit"]:hover,
 .page-content input[type="submit"]:focus,
 #tix .tix-submit .tix-checkout-button:focus,
-#tix .tix-submit .tix-checkout-button:hover {
+#tix .tix-submit .tix-checkout-button:hover,
+a.wp-block-button__link:focus,
+a.wp-block-button__link:hover {
 	background: #013544;
 }
 

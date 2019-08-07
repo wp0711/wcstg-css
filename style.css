@@ -177,8 +177,8 @@ figure {
 	padding: 0 30px;
 }
 
-ul,
-ol {
+.site-main ul,
+.site-main ol {
 	list-style-position: outside;
 	margin: 0 0 1.5em 0;
 	padding: 0 0 0 1em;

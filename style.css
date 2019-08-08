@@ -28,6 +28,10 @@ a:focus {
 	outline: 1px dashed;
 }
 
+.site-content .post-edit-link {
+	display: none;
+}
+
 .site-content a,
 .site-content a:visited {
 	border-bottom: 1px solid #00adad;

@@ -654,12 +654,12 @@ figure {
 .entry-meta a:visited,
 .entry-meta a:link {
     color: #013544;
-	border-bottom: 1px solid #013544;
+	border-bottom: 1px solid transparent;
 }
 
 .entry-meta a:hover,
 .entry-meta a:focus {
-	border-bottom: 1px solid transparent;
+	border-bottom: 1px solid #013544;
 }
 
 .comments-area {

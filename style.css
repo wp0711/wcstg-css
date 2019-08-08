@@ -742,6 +742,7 @@ button,
 #tix .tix-submit .tix-checkout-button,
 a.wp-block-button__link,
 a.wp-block-button__link:link,
+a.wp-block-button__link:visited,
 a.more-link,
 a.more-link:link,
 a.more-link:visited {

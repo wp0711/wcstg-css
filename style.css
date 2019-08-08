@@ -270,6 +270,9 @@ figure {
 	font-size: 1.5rem;
 	line-height: 1;
 	margin: 0 0 70px;
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: 308px;
 }
 
 .site-title {
@@ -809,9 +812,13 @@ input[type="search"] {
 @media screen and (max-width: 767px) {
 	.site-title a,
 	.site-description {
-		font-size: 22px;
+		font-size: 24px;
 		margin: 0 0 35px;
+		margin: 0 auto 35px;
+		overflow-y: hidden;
 		text-align: center;
+		white-space: nowrap;
+		width: 245px;
 	}
 	
 	.custom-logo {

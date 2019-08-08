@@ -326,7 +326,8 @@ figure {
 	color: #d3125a;
 }
 
-.menu li:hover a {
+.menu li:hover > a,
+.menu li.current_page_parent > a {
 	color: #d3125a;
 	background: none;
 }

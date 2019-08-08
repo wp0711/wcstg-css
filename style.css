@@ -784,7 +784,7 @@ input[type="search"] {
 	color: #084b5b;
 }
 
-.menu li.current-menu-item a {
+.menu li.current-menu-item > a {
 	color: #d3125a;
 }
 

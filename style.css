@@ -954,6 +954,7 @@ input[type="search"] {
 
 /* imprint page */
 
-.page-slug-impressum a {
+.page-slug-impressum a,
+.page-slug-code-of-conduct a {
 	word-break: break-all;
 }

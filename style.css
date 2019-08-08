@@ -58,6 +58,11 @@ a:focus {
 	border-bottom: 0;
 }
 
+.wp-block-image a {
+	display: block;
+	line-height: 0;
+}
+
 .site-info-network:focus {
 	border: 1px dashed #fff;
 	outline: none;
@@ -813,7 +818,6 @@ input[type="search"] {
 	.site-title a,
 	.site-description {
 		font-size: 24px;
-		margin: 0 0 35px;
 		margin: 0 auto 35px;
 		overflow-y: hidden;
 		text-align: center;

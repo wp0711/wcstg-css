@@ -63,6 +63,11 @@ a:focus {
 	line-height: 0;
 }
 
+.wp-block-image.alignwide,
+.wp-block-image.alignfull {
+	margin-bottom: 1.6em;
+}
+
 .site-info-network:focus {
 	border: 1px dashed #fff;
 	outline: none;

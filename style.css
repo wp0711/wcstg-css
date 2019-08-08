@@ -68,6 +68,10 @@ a:focus {
 	color: #d50757;
 }
 
+.mobile-only {
+	display: block;
+}
+
 h1,
 h2,
 h3,
@@ -174,6 +178,10 @@ a:focus {
 }
 
 @media (min-width: 768px) {
+	.mobile-only {
+		display: none;
+	}
+	
 	.wp-block-image .alignright,
 	.wp-block-image .alignleft {
 		display: block;

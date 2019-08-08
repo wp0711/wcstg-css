@@ -46,9 +46,12 @@ a:focus {
 .wp-block-image a,
 .wp-block-image a:link,
 .wp-block-image a:hover,
-.wp-block-image a:focus {
+.wp-block-image a:focus,
+#tix-attendees a,
+#tix-attendees a:link,
+#tix-attendees a:hover,
+#tix-attendees a:focus {
 	border-bottom: 0;
-	line-height: 1;
 }
 
 .site-info-network:focus {
@@ -119,6 +122,11 @@ th {
 .tix-attendee-list::after {
 	content: "";
 	flex: auto;
+}
+
+#tix-attendees ul {
+	padding: 0;
+	margin: 0;
 }
 
 #tix .tix-ticket-form + p {

@@ -648,14 +648,15 @@ figure {
 }
 
 .entry-meta a,
-.entry-metaa:visited,
+.entry-meta a:visited,
 .entry-meta a:link {
     color: #013544;
+	border-bottom: 0;
 }
 
 .entry-meta a:hover,
 .entry-meta a:focus {
-	text-decoration: underline;
+	border-bottom: 1px solid #013544;
 }
 
 .comments-area {

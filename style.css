@@ -43,6 +43,14 @@ a:focus {
 	text-decoration: none;
 }
 
+.wp-block-image a,
+.wp-block-image a:link,
+.wp-block-image a:hover,
+.wp-block-image a:focus {
+	border-bottom: 0;
+	line-height: 1;
+}
+
 .site-info-network:focus {
 	border: 1px dashed #fff;
 	outline: none;

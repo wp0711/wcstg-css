@@ -28,16 +28,16 @@ a:focus {
 	outline: 1px dashed;
 }
 
-p a,
-p a:visited {
+.site-content a,
+.site-content a:visited {
 	border-bottom: 1px solid #00adad;
 	color: #009a9a;
 	text-decoration: none;
 	transition: all .18s ease-out;
 }
 
-p a:hover,
-p a:focus {
+.site-content a:hover,
+.site-content a:focus {
 	border-bottom: 1px solid #013544;
 	color: #013544;
 	text-decoration: none;

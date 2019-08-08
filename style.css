@@ -553,11 +553,7 @@ figure {
 }
 
 .site-info-generator {
-	display: inline-block;
-	height: 1px;
-	overflow: hidden;
-	text-indent: -9999px;
-	width: 1px;
+	display: none;
 }
 
 .site-info-network {

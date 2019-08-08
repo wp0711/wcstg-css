@@ -108,6 +108,11 @@ th {
 	padding: 0;
 }
 
+.tix-attendee-list::after {
+	content: "";
+	flex: auto;
+}
+
 #tix .tix-ticket-form + p {
 	display: none;
 }

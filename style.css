@@ -740,7 +740,8 @@ button,
 a.wp-block-button__link,
 a.wp-block-button__link:link,
 a.more-link,
-a.more-link:link {
+a.more-link:link,
+a.more-link:visited {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	background: #009a9a;
@@ -763,7 +764,7 @@ button:focus,
 a.wp-block-button__link:focus,
 a.wp-block-button__link:hover,
 a.more-link:focus,
-a.more-link:hover{
+a.more-link:hover {
 	background: #013544;
 }
 

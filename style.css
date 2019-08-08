@@ -924,3 +924,10 @@ input[type="search"] {
 		margin-top: 1.5em;
 	}
 }
+
+
+/* imprint page */
+
+.page-slug-impressum a {
+	word-break: break-all;
+}

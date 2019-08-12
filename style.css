@@ -766,7 +766,7 @@ button:focus {
 }
 
 button,
-.entry-content input[type="submit"],
+.site-main input[type="submit"],
 .page-content input[type="submit"],
 #tix .tix-submit .tix-checkout-button,
 a.wp-block-button__link,
@@ -788,8 +788,8 @@ a.more-link:visited {
 
 button:hover,
 button:focus,
-.entry-content input[type="submit"]:hover,
-.entry-content input[type="submit"]:focus,
+.site-main input[type="submit"]:hover,
+.site-main input[type="submit"]:focus,
 .page-content input[type="submit"]:hover,
 .page-content input[type="submit"]:focus,
 #tix .tix-submit .tix-checkout-button:focus,

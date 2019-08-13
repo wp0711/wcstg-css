@@ -762,7 +762,7 @@ textarea:focus {
 input:focus,
 button:focus,
 select:focus {
-	outline: 1px dashed #00adad;
+	outline: 1px dashed #d51e62;
 }
 
 button,

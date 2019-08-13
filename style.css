@@ -115,11 +115,6 @@ th {
 	color: #fff;
 }
 
-.tix-js,
-.tix-has-dynamic-receipts {
-	overflow: auto;
-}
-
 .tix-column-description {
 	min-width: 200px;
 }

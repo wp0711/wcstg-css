@@ -824,7 +824,8 @@ input[type="search"] {
 	.responsive-table td,
 	.tix_tickets_table tr,
 	.tix_tickets_table td,
-	.tix_tickets_table th {
+	.tix_tickets_table th,
+	.tix_tickets_table tbody {
 		display: block;
 		width: 100% !important;
 		min-width: 100% !important;

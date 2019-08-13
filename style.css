@@ -706,7 +706,8 @@ figure {
 .tix-receipt-form input[type="text"],
 .tix-receipt-form input[type="email"],
 .tix-receipt-form input[type="url"],
-.tix-receipt-form textarea {
+.tix-receipt-form textarea,
+.tix-receipt-form select {
     width: 100%;
 }
 

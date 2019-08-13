@@ -759,7 +759,7 @@ textarea:focus {
 	padding-bottom: 3px;
 }
 
-input:focus,
+input:not([type="submit"]):focus,
 button:focus,
 select:focus {
 	outline: 1px dashed #d51e62;

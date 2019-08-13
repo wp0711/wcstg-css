@@ -820,6 +820,32 @@ input[type="search"] {
 }
 
 @media screen and (max-width: 767px) {
+	.responsive-table tr,
+	.responsive-table td,
+	.tix_tickets_table tr,
+	.tix_tickets_table td,
+	.tix_tickets_table th {
+		display: block;
+		width: 100% !important;
+		min-width: 100% !important;
+	}
+	
+	.responsive-table tr,
+	.tix_tickets_table tr {
+		margin-bottom: 1em;
+	}
+	
+	.responsive-table td:not(:last-child),
+	.tix_tickets_table td:not(:last-child) {
+		border-bottom: 0;
+	}
+	
+	.responsive-table thead,
+	.tix_tickets_table thead,
+	.tix_tickets_table .tix-column-remaining {
+		display: none;
+	}
+	
 	.site-title a,
 	.site-description {
 		font-size: 24px;

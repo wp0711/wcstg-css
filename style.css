@@ -821,6 +821,7 @@ input[type="search"] {
 
 @media screen and (max-width: 767px) {
 	.responsive-table,
+	.responsive-table tbody,
 	.responsive-table tr,
 	.responsive-table td,
 	.tix_tickets_table tr,

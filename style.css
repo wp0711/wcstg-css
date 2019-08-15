@@ -715,10 +715,10 @@ figure {
 }
 
 @media only screen and (min-width: 600px) {
-	.contact-form input[type=email],
-	.contact-form input[type=tel],
-	.contact-form input[type=text],
-	.contact-form input[type=url] {
+	.entry-content .contact-form input[type=email],
+	.entry-content .contact-form input[type=tel],
+	.entry-content .contact-form input[type=text],
+	.entry-content .contact-form input[type=url] {
 		width: 100%;
 	}
 }

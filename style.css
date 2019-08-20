@@ -56,6 +56,64 @@ a:focus {
 #tix-attendees a:hover,
 #tix-attendees a:focus {
 	border-bottom: 0;
+	word-break: break-all;
+}
+
+#tix-attendees .tix-columns-3 li {
+	width: 50%;
+	display: block;
+	text-align: center;
+	height: auto;
+	padding: 10px 25px;
+}
+
+@media (max-width: 767px) {
+	#tix-attendees .tix-columns-3 li:nth-child(2n) {
+		padding-right: 0;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(2n+3),
+	#tix-attendees .tix-columns-3 li:first-child {
+		padding-left: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	#tix-attendees .tix-columns-3 li {
+		width: 33.333%;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(3n) {
+		padding-right: 0;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(3n+4),
+	#tix-attendees .tix-columns-3 li:first-child {
+		padding-left: 0;
+	}
+}
+
+#tix-attendees .avatar {
+	float: none;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+#tix-attendees .tix-attendee-name {
+	margin-bottom: 0;
+	clear: none;
+	margin-left: 0;
+}
+
+#tix-attendees .tix-field {
+	display: block;
+	font-size: 15px;
+	margin-left: 0;
+}
+
+#tix-attendees a, #tix-attendees a:link, #tix-attendees a:hover, #tix-attendees a:focus {
+	word-break: break-all;
 }
 
 .wp-block-image a {

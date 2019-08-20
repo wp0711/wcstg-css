@@ -42,8 +42,7 @@ a:focus {
 
 .site-content a:hover,
 .site-content a:focus {
-	border-bottom: 1px solid #013544;
-	color: #013544;
+	border-bottom: 1px solid transparent;
 	text-decoration: none;
 }
 
@@ -113,7 +112,9 @@ a:focus {
 	margin-left: 0;
 }
 
-#tix-attendees a, #tix-attendees a:link, #tix-attendees a:hover, #tix-attendees a:focus {
+#tix-attendees a, #tix-attendees a:link,
+#tix-attendees a:hover,
+#tix-attendees a:focus {
 	word-break: break-all;
 }
 
@@ -887,6 +888,15 @@ input[type="search"] {
 	color: #d3125a;
 }
 
+.menu li.current_page_parent:not(.current-menu-item) > a {
+	color: #084b5b;
+}
+
+.menu li.current-menu-ancestor > a {
+	color: #d3125a;
+}
+
+
 @media screen and (max-width: 767px) {
 	.responsive-table,
 	.responsive-table tbody,
@@ -993,7 +1003,6 @@ input[type="search"] {
 	
 	.page-navigation-container ul ul.sub-menu {
 		position: absolute;
-		
 	}
 	
 	.page-navigation-container ul {
@@ -1051,10 +1060,11 @@ input[type="search"] {
 		color: #d3125a;
 	}
 	
-	.page-navigation-container ul li:hover > ul a:hover,
-	.page-navigation-container ul li.focus > ul a:focus {
-		color: #d3125a;
-	}
+.page-navigation-container ul li:hover > ul a:hover,
+.page-navigation-container ul li.focus > ul a:focus {
+	color: #d3125a;
+	text-decoration: underline;
+}
 	
 	.page-navigation-container ul ul.sub-menu a::before {
 		content: none;

@@ -915,10 +915,6 @@ input[type="search"] {
 	color: #d3125a;
 }
 
-.menu li.current_page_parent:not(.current-menu-item) > a {
-	color: #084b5b;
-}
-
 .menu li.current-menu-ancestor > a {
 	color: #d3125a;
 }

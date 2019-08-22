@@ -1023,7 +1023,8 @@ input[type="search"] {
 		padding: 10px 8px 8px 20px;
 	}
 	
-	.page-navigation-container ul ul.sub-menu li:hover a::before {
+	.page-navigation-container ul ul.sub-menu li:hover a::before,
+	.page-navigation-container ul ul.sub-menu li.current-menu-item a::before {
 		display: inline-block;
 		content: " ";
 		height: 3px;

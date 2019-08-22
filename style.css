@@ -1024,6 +1024,8 @@ input[type="search"] {
 	}
 	
 	.page-navigation-container ul ul.sub-menu li:hover a::before,
+	.page-navigation-container ul ul.sub-menu li.focus a::before,
+	.page-navigation-container ul ul.sub-menu li a:focus::before,
 	.page-navigation-container ul ul.sub-menu li.current-menu-item a::before {
 		display: inline-block;
 		content: " ";

@@ -570,7 +570,6 @@ figure {
 }
 
 /* Gutenberg Features */
-
 .alignfull,
 .alignwide {
 	left: 50%;
@@ -723,7 +722,6 @@ figure {
 	margin-left: 50px;
 	opacity: 1;
 }
-
 
 /* Organizers Grid @TODO */
 .wcorg-organizers {
@@ -925,7 +923,6 @@ input[type="search"] {
 	color: #d3125a;
 }
 
-
 @media screen and (max-width: 767px) {
 	.responsive-table,
 	.responsive-table tbody,
@@ -1125,9 +1122,6 @@ input[type="search"] {
 		margin-top: 1.5em;
 	}
 }
-
-
-/* imprint page */
 
 .page-slug-impressum a,
 .page-slug-code-of-conduct a {

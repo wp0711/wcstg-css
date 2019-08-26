@@ -74,6 +74,7 @@ a:focus {
 .wordcamp-sponsors a:hover,
 .wordcamp-sponsors a:focus {
 	border: 3px solid #9f9f9f;
+	filter: grayscale(1);
 }
 
 a.wordcamp-image__featured-image-link {

@@ -118,7 +118,8 @@ a.wordcamp-image__featured-image-link {
 	}
 }
 
-#tix-attendees .avatar {
+#tix-attendees .avatar,
+.wordcamp-organizers .avatar {
 	float: none;
 	width: 60px;
 	height: 60px;

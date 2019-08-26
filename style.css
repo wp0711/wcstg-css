@@ -1094,6 +1094,7 @@ input[type="search"] {
 		flex-wrap: wrap;
 		top: 2.5em;
 		width: 245px;
+		left: -7px;
 	}
 	
 	.page-navigation-container ul li:hover > ul a,

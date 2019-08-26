@@ -555,7 +555,11 @@ figure {
 }
 
 #colophon {
+	color: #fff;
+	max-width: 1200px;
+	padding-top: 25px;
 	padding: 10px 30px 0;
+	position: relative;
 }
 
 @media (min-width: 768px) {
@@ -566,18 +570,17 @@ figure {
 	}
 }
 
-#colophon {
-	max-width: 1200px;
-	position: relative;
-}
-
-#colophon,
-#colophon a {
+#colophon a,
+#colophon a:link {
+	border-bottom: 1px solid transparent;
 	color: #fff;
+	transition: all .18s ease-out;
 }
 
-#colophon {
-	padding-top: 25px;
+#colophon a:hover,
+#colophon a:focus {
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
 }
 
 /* Gutenberg Features */

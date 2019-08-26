@@ -48,10 +48,12 @@ a:focus {
 
 .wp-block-image a,
 .wp-block-image a:link,
+.wp-block-image a:visited,
 .wp-block-image a:hover,
 .wp-block-image a:focus,
 #tix-attendees a,
 #tix-attendees a:link,
+#tix-attendees a:visited,
 #tix-attendees a:hover,
 #tix-attendees a:focus {
 	border-bottom: 0;
@@ -59,6 +61,7 @@ a:focus {
 }
 
 .wordcamp-sponsors a,
+.wordcamp-sponsors a:visited,
 .wordcamp-sponsors a:link {
 	border: 3px solid #d2d2d2;
 	display: flex;
@@ -303,6 +306,10 @@ figure {
 	padding: 0 0 0 1em;
 	overflow: hidden;
 	zoom: 1;
+}
+
+.site-main .wordcamp-post-list.wordcamp-post-list {
+	padding: 0;
 }
 
 .site-main li {

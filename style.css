@@ -917,7 +917,7 @@ input[type="search"] {
 	display: inline-block;
 	color: transparent;
 	margin-right: 5px;
-	transition: color .1s;
+	transition: all .1s;
 }
 
 .page-navigation-container li a:hover::before,

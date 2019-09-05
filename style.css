@@ -598,8 +598,7 @@ figure {
 	transition: all .18s ease-out;
 }
 
-#colophon a:hover,
-#colophon a:focus {
+#colophon a:hover {
 	border-bottom: 1px solid #fff;
 	text-decoration: none;
 }

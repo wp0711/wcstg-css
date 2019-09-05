@@ -155,8 +155,8 @@ a.wordcamp-image__featured-image-link {
 	margin-bottom: 1.6em;
 }
 
-.site-info-network:focus {
-	border: 1px dashed #fff;
+#colophon .site-info-network:focus {
+	border: 1px dashed #fff ;
 	outline: none;
 }
 
@@ -708,9 +708,9 @@ figure {
 	}
 }
 
-.site-info-network:active,
-.site-info-network:focus,
-.site-info-network:hover {
+#colophon .site-info-network:active,
+#colophon .site-info-network:focus,
+#colophon .site-info-network:hover {
 	background-color: #0e3f4e;
 }
 

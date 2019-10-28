@@ -954,6 +954,32 @@ input[type="search"] {
 	color: #d3125a;
 }
 
+@media (min-width: 701px) {
+	.wcpt-schedule tr th:first-child {
+		width: 9%;
+	}
+	
+	.wcpt-schedule tr th:nth-child(2),
+	.wcpt-schedule tr th:nth-child(3),
+	.wcpt-schedule tr th:last-child {
+		width: 30%%;
+	}
+}
+
+@media (min-width: 840px) {
+	.wcpt-schedule {
+		margin: 0 0 0 -9vw;
+		width: calc(100% + 18vw);
+	}
+}
+
+@media (min-width: 1200px) {
+	.wcpt-schedule {
+		margin: 0 0 0 -248px;
+		width: calc(100% + 495px);
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.responsive-table,
 	.responsive-table tbody,

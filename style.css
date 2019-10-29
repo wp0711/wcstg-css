@@ -515,8 +515,8 @@ figure {
 
 @media (min-width: 840px) {
 	.menu-item a {
-		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-left: .25rem;
+		padding-right: .25rem;
 	}
 }
 
@@ -962,7 +962,7 @@ input[type="search"] {
 	.wcpt-schedule tr th:nth-child(2),
 	.wcpt-schedule tr th:nth-child(3),
 	.wcpt-schedule tr th:last-child {
-		width: 30%%;
+		width: 30%;
 	}
 }
 

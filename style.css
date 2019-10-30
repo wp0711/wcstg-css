@@ -1188,3 +1188,11 @@ input[type="search"] {
 .page-slug-code-of-conduct a {
 	word-break: break-all;
 }
+
+.search-form {
+	display: flex;
+}
+
+.search-form label {
+	flex: 1 1 auto;
+}

@@ -1196,3 +1196,40 @@ input[type="search"] {
 .search-form label {
 	flex: 1 1 auto;
 }
+
+/* dark mode CSS */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #001e28;
+		filter: invert(1) hue-rotate(180deg);
+	}
+	
+	img {
+		opacity: .8;
+	}
+	
+	img:hover,
+	img:focus {
+		opacity: 1;
+	}
+	
+	img,
+	.site-branding::after,
+	#wpadminbar,
+	#colophon {
+		filter: invert(1) hue-rotate(180deg);
+	}
+	
+	.site-branding::after {
+		background: #f38dc3;
+	}
+	
+	img.custom-logo {
+		filter: invert(1) hue-rotate(185deg) saturate(3) brightness(0.6);
+		opacity: 1;
+	}
+	
+	#colophon {
+		background-color: #001f28;
+	}
+}

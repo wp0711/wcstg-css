@@ -1232,4 +1232,9 @@ input[type="search"] {
 	#colophon {
 		background-color: #001f28;
 	}
+	
+	.wordcamp-sponsors a, .wordcamp-sponsors a:visited, .wordcamp-sponsors a:link {
+		border: 3px solid #575757;
+		background: #000;
+	}
 }

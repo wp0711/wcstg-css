@@ -1253,4 +1253,9 @@ input[type="search"] {
 	.image-dark-fix img {
 		opacity: 1;
 	}
+	
+	#tix-attendees .avatar, 
+	.wordcamp-organizers .avatar {
+		filter: invert(1) grayscale(1) contrast(.9) brightness(1.1);
+	}
 }

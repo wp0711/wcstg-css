@@ -1113,19 +1113,22 @@ input[type="search"] {
 		position: relative;
 	}
 	
-	.menu-hauptmenue-container {
+	.menu-hauptmenue-container,
+	.menu-hauptmenu-container {
 		margin-top: -101px;
 		padding-left: 300px;
 		width: 100%;
 	}
 	
-	.menu-hauptmenue-container > ul {
+	.menu-hauptmenue-container > ul,
+	.menu-hauptmenu-container > ul {
 		display: flex !important;
 		justify-content: space-between;
 		width: 100%;
 	}
 	
-	.menu-hauptmenue-container > ul > li:last-child a {
+	.menu-hauptmenue-container > ul > li:last-child a,
+	.menu-hauptmenu-container > ul > li:last-child a {
 		padding-right: 0;
 		margin-right: 0;
 	}
